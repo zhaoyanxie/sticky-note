@@ -18,12 +18,12 @@ The goal is to check the applicant is able to:
 2. For implementation you should and can only use **Javascript**, **HTML5**, **CSS3**.
 3. Create a single page Sticky note app. The user should be able to:
   - Edit the title and content of the notes,
-  - Save all your notes,
   - Add new notes,
   - Delete notes,
+  - Save all his notes,
   - Filter notes on title thanks to a search bar
 4. Explain in simple words how to install and run your project within your README file.
-5. Send the link to your github repository for reviewing at [tgcorbeaux@maltem.com](mailto:tgcorbeaux@maltem.com).
+5. Send the link of your github repository for reviewing to [tgcorbeaux@maltem.com](mailto:tgcorbeaux@maltem.com).
 
 ##### Remarks
 Feel free to add everything you think meaningful to your application as long as the above requirements are done.
