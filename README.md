@@ -2,6 +2,10 @@
 
 This page contains description and requirements for a Front-End assignment on Vanilla **Javascript**, **HTML5**, **CSS3**.
 
+### Duration
+
+This assessment duration is set to one hour and a half.
+
 ### Goal
 
 The goal is to check the applicant is able to:
