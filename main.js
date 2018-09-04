@@ -1,5 +1,7 @@
 const todo = document.querySelector("#note-list");
 const button = document.querySelector("#btnAddNote");
+const list = document.querySelector("ul");
+const editList = document.querySelector(".edit-list");
 
 // seed data
 const notes = ["note1", "note2", "note3"];
@@ -10,9 +12,8 @@ const createNote = note => {
 
   li.textContent = note;
   todo.appendChild(li);
-  span.textContent = "    X";
+  span.textContent = "X";
   li.appendChild(span);
-
   span.addEventListener("click", () => {
     li.style.display = "none";
   });
@@ -28,3 +29,7 @@ button.addEventListener("click", () => {
     input.value = "";
   }
 });
+
+editList.onclick = () => {
+  list.contentEditable = true;
+};
