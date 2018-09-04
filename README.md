@@ -1,39 +1,20 @@
-# Sticky Note Application - Front-End assignment
+# Getting started
+1. Git clone and npm install.
+2. Open ```index.html``` in the browser.
 
-This page contains description and requirements for a Front-End assignment on Vanilla **Javascript**, **HTML5**, **CSS3**.
+# Adding new notes
+1. Type in input box with the placeholder text that says,"enter note here".
+2. Click on button "Add Note".
+3. New note will be added at the bottom of the list.
 
-### Duration
+# Editing Notes
+1. Click on the button "Edit Notes".
+2. Click on the note to be edited and edit text.
 
-This assessment duration is set to one hour and a half.
+# Deleting Notes
+1. Click on the red box with the "X".
 
-### Goal
-
-The goal is to check the applicant is able to:
-- Build an application from scratch using only vanilla JS, HTML and CSS and know how to use these technologies without any help from external libraries or external resources,
-- Make a responsive view,
-- Make a cross-browsers application,
-- Write clean code,
-- Use git,
-- Write short and clean documentation.
-
-### Requirements
-
-1. Create a public github repository that you will send to us.
-2. For implementation you should and can only use **Javascript**, **HTML5**, **CSS3**.
-3. Create a single page Sticky note app. The user should be able to:
-  - Edit the title and content of the notes,
-  - Add new notes,
-  - Delete notes,
-  - Save all his notes,
-  - Filter notes on title thanks to a search bar
-4. Explain in simple words how to install and run your project within your README file.
-5. Send the link of your github repository for reviewing to [tgcorbeaux@maltem.com](mailto:tgcorbeaux@maltem.com).
-
-##### Remarks
-Feel free to add everything you think meaningful to your application as long as the above requirements are done.
-
-### Specification
-
-* The code needs to work after we pull it and try it (no bugs).
-* The view should be responsive, user-friendly and clear.
-* It should work on Chrome, Safari and IE (>= 10).
+# Note Searching
+1. Enter the text of the note to be searched. Search is not case sensitive.
+2. Click on the button "Search Note" to show matched text.
+3. Click on the button again to reveal all notes again.
