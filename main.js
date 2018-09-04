@@ -30,14 +30,12 @@ btnAddNote.addEventListener("click", () => {
     createNote(input.value);
     input.value = "";
   }
-  console.log(notes);
 });
 
 btnSearchNote.addEventListener("click", () => {
   const searchInput = document.querySelector("#searchNote").value + "X";
   const li = document.querySelectorAll("li");
   li.forEach(li => {
-    console.log(li.textContent, searchInput);
     if (li.textContent !== searchInput) li.classList.toggle("hide");
   });
 });
