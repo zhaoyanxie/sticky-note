@@ -36,7 +36,8 @@ btnSearchNote.addEventListener("click", () => {
   const searchInput = document.querySelector("#searchNote").value + "X";
   const li = document.querySelectorAll("li");
   li.forEach(li => {
-    if (li.textContent !== searchInput) li.classList.toggle("hide");
+    if (li.textContent.toLowerCase() !== searchInput.toLowerCase())
+      li.classList.toggle("hide");
   });
 });
 
