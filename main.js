@@ -1,5 +1,6 @@
 const todo = document.querySelector("#note-list");
-const button = document.querySelector("#btnAddNote");
+const btnAddNote = document.querySelector("#btnAddNote");
+const btnSearchNote = document.querySelector("#btnSearchNote");
 const list = document.querySelector("ul");
 const editList = document.querySelector(".edit-list");
 
@@ -21,13 +22,24 @@ const createNote = note => {
 
 notes.forEach(note => createNote(note));
 
-button.addEventListener("click", () => {
+btnAddNote.addEventListener("click", () => {
   const input = document.querySelector("input");
 
   if (input.value !== "") {
+    notes.push(input.value);
     createNote(input.value);
     input.value = "";
   }
+  console.log(notes);
+});
+
+btnSearchNote.addEventListener("click", () => {
+  const searchInput = document.querySelector("#searchNote").value + "X";
+  const li = document.querySelectorAll("li");
+  li.forEach(li => {
+    console.log(li.textContent, searchInput);
+    if (li.textContent !== searchInput) li.classList.toggle("hide");
+  });
 });
 
 editList.onclick = () => {

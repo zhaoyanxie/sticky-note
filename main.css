@@ -42,7 +42,7 @@ input {
 	font-size: 1.5rem;
 	background: rgba(255,255,255,0);
 }
-button, .edit-list  {
+button {
   grid-column: 3/4;
 	background: blueviolet;
 	display: block;
@@ -50,14 +50,22 @@ button, .edit-list  {
 	margin: 1rem auto;
 	padding: 1rem;
 	color: white;
-	font-size: 1.3rem;
-}
-
-.edit-list {
-  background: rgb(36, 115, 164);
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
+.edit-list {
+  grid-column: 2/3;
+  width: 100%;
+  color: white;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background: rgb(36, 115, 164);
+}
+#btnSearchNote {
+  background: greenyellow;
+  color: black;
+}
 li span {
 	float: right;
 	color: 3b3a36;
@@ -70,4 +78,7 @@ li span {
   ul {
     grid-column: 1/4
   }
+}
+.hide {
+  display: none;
 }
