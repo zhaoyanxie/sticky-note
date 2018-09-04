@@ -18,3 +18,6 @@
 1. Enter the text of the note to be searched. Search is not case sensitive.
 2. Click on the button "Search Note" to show matched text.
 3. Click on the button again to reveal all notes again.
+
+# Responsive Behaviour
+1. The notes will occupy all width across the page when the screen size is smaller than 768px. They only occupy three quarter of the page when the screen size is larger than that. 
